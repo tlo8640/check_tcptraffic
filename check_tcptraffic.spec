@@ -20,6 +20,7 @@ Source:    https://github.com/matteocorti/%{sourcename}/releases/download/v%{ver
 
 # Fedora build requirement (not needed for EPEL{4,5})
 BuildRequires: perl(ExtUtils::MakeMaker)
+BuildRequires: perl-Module-Install
 
 Requires:  nagios-plugins
 
